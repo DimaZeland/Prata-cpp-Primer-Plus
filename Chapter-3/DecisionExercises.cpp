@@ -1,8 +1,10 @@
 //Steven Prata
-//C ++ programming language
-//Lectures and Exercises
+//"C ++ programming language
+//Lectures and Exercises"
 //6th edition
+
 //Chapter 3. Working with data
+
 //Programming exercises
 
 #include <iostream>
@@ -99,6 +101,7 @@ MyClass::TimeConverter()const {
 }
 
 int main() {
+	
 	using namespace std;
 
 	auto* pObj = new MyClass;
