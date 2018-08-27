@@ -1,0 +1,53 @@
+Steven Prata
+C ++ programming language
+Lectures and Exercises
+6th edition
+Chapter 3. Working with data
+Programming exercises
+
+1. Write a short program that requests growth in inches and converts them into feet and inches. 
+The program must use the underscore to indicate the position where the input will be made. 
+To represent the conversion factor, use the character constant const.
+
+2. Write a short program that requests growth in feet and inches and weight in pounds. 
+(To store this information, use three variables.) The program must produce a body mass index (BMI). 
+To calculate the body mass index, first convert the growth in feet and inches to a height in inches (1 foot = 12 inches). 
+Then convert the growth in inches to height in meters, multiplying by 0.0254. 
+Next, convert the weight in pounds into weight in kilograms,
+dividing by 2.2. After that, calculate the BMI by dividing the mass in kilograms per square meter in meters. 
+To represent different transformation coefficients, use symbolic constants.
+
+3. Write a program that asks for latitude in degrees, minutes and seconds, and then displays the latitude in decimal format. 
+In one minute 60 arc seconds, about one degree 60 arc minutes; represent these values using symbolic constants. 
+For each input value, a separate variable must be used. The output of the program should look like this:
+Enter a latitude in degress, minutes, and seconds:
+First, enter the degress: 37
+Next, enter the minutes of arc: 19
+37 degress, 51 minutes, 19 seconds = 37.8583 degress.
+
+4. Write a program that asks for the number of seconds as an integer value 
+(use the type long or long long if the latter is available and then displays the equivalent value in days, hours, minutes.) 
+To represent the number of hours in a day, the number of minutes in an hour, 
+and the number of seconds in a minute use symbolic constants.The output of the program should look like this:
+Enter the number of seconds: 316000000
+31600000 seconds = 365 days, 17 hours, 46 minutes, 40 seconds.
+
+5. Write a program that asks for the current population of the Earth and the current population of the United States 
+(or any other country). Save this information in a variable of type long long. 
+As a result, the program should reflect the percentage of the population of the United States or the selected country and the world.
+The output of the program should look like this:
+Enter the world's population: 6898758899
+Enter the population of the US: 310783781
+The population of the US is 4.50492% of the world population.
+You can search the Internet for value.
+
+6. Write a program that asks for the number of miles passed by the car and the number of gallons spent on gasoline, 
+and then reports the value of the number of miles per gallon. Or, if you want, the programs can ask for the distance in kilometers, 
+and the volume of gasoline in liters, and give the result in the form of a quantity of liters per 100 km.
+
+7. Write a program that asks for European-style gasoline consumption (the number of liters per 100 km) 
+and converts it into a style accepted in the US - the number of miles per gallon. Note that in addition to using other units
+of measurement, the US approach (distance / fuel) is the opposite of the European (fuel / distance) approach. 
+Note that 100 km corresponds to 62.14 miles, and 1 gallon is 3.875 liters. 
+Thus, 19 miles per gallon is approximately equal to 12.4 liters per 100 kilometers, 
+and 27 miles per gallon is approximately 8.7 liters per 100 kilometers.
