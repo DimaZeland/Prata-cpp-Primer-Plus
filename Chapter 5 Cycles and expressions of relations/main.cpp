@@ -1,3 +1,11 @@
+//Stephen Prata
+//"C++ Primer Plus"
+//Sixth Edition
+
+//Chapter 5. Cycles and expressions of relations
+
+//Programming exercises
+
 #include"MyClass.h"
 
 int main()
