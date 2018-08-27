@@ -1,0 +1,67 @@
+Stephen Prata
+"C++ Primer Plus"
+Sixth Edition
+
+Chapter 4. Compound types
+
+Programming exercises
+
+1. Write a C ++ program that requests and displays information, as shown in the following output example:
+
+What is your first name? Betty Sue
+What is your last name? Yewe
+What letter grade do you deserve? B
+What is your age? 22
+Name: Yewe, Betty Sue
+Grade: C
+Age: 22
+
+Note that the program must accept names consisting of more than one word. 
+In addition, the program should reduce the value of grade by one gradation - i.e. one letter higher. 
+It is assumed that the user can enter, A, B or C, so you do not need to worry about skipping between D and F.
+
+2. Rewrite Listing 4.4 by using the C ++ string class instead of the char arrays.
+
+3. Write a program that asks the user for the name, surname, and then constructs, stores the third line, 
+consisting of the user's name, followed by a comma, a space and its name. Use char arrays and functions from the header file cstring. 
+The startup example should look like this:
+
+Enter your first name: Flip
+Enter your last name: Fleming
+Here's the information in a single string: Fleming, Flip
+
+4. Write a program that invites the user to enter his name and surname, and then builds, 
+saves and displays the third line consisting of the last name followed by a comma, a space and a name. 
+Use the methods from the string file. The startup example should look like this:
+
+Enter your first name: Flip
+Enter your last name: Fleming
+Here's the information in a single string: Fleming, Flip
+
+5. The structure of CandyBar contains three members. The first of these stores the name of a box of chocolates. 
+The second is its weight (which can have a fractional part), and the third is the number of calories (whole value). 
+Write a program that declares this structure and creates a variable of type CandyBar named snack, 
+initializing its members with the values ​​"Mocha Munch", 2.3 and 350, respectively. 
+Initialization must be part of the snack declaration. Finally, the program should display the contents of this variable.
+
+6. The CandyBar structure includes three members, as described in the previous exercise. 
+Write a program that creates an array of three CandyBar structures, initializes them to the values 
+you want, and then displays the contents of each structure.
+
+7. William Wingate is in charge of the pizza market analysis service. About each pizza, he records the following information:
+- name of the company that produces pizza, which may consist of more than one word;
+- diameter of the pizza;
+- weight of pizza.
+Develop a structure that can contain all this information, and write a program that uses a structured variable of this type.
+The program must ask the user for each of the listed indicators and then display the entered information. 
+Use cin (or its methods) and cout.
+
+8. Execute Exercise 7, but with the new operation to place the structure in free storage instead of declaring the structural variable. 
+In addition, make sure that the program first requests the diameter of the pizza, and then - the name of the company.
+
+9. Execute Exercise 6, but instead of declaring an array of three CandyBar structures, 
+use the new operation to dynamically allocate the array.
+
+10. Write a program that invites the user to enter three run results for 40 yards (or 40 meters if you wish) 
+and then display these values ​​and their mean. To store data, use the array object. 
+(If the array object is not available, use the built-in array.)
