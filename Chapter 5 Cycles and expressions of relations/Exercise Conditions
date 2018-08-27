@@ -1,0 +1,82 @@
+Stephen Prata
+"C++ Primer Plus"
+Sixth Edition
+
+Chapter 5. Cycles and expressions of relations
+
+Programming exercises
+
+1. Write a program that asks the user to enter two numbers. 
+Then the program must calculate and give out the sum of all the integers lying between these two integers. 
+It is assumed that a lower value is introduced first. 
+For example, if the user entered 2 and 9, the program must report that the sum of all integers from 2 to 9 is 44.
+
+2. Rewrite the code from Listing 5.4 using the array object instead of the built-in array and 
+the long double type instead of the long long. Find the value of 100!
+
+3. Write a program that prompts the user to enter numbers. 
+After each entered value, the program must output the accumulated sum of the entered values. The program must end when you enter 0.
+
+4. Daphne invested $ 100 at a simple 10%. 
+In other words, every year an investment should bring 10% of the invested amount, that is, $ 10 each year:
+profit = 0.1 * initial balance
+
+At the same time, Cleo invested $ 100 for a complex 5%. This means that the profit will be 5% of the current balance, 
+including the previous accumulated profit:
+profit = 0.05 * current balance
+
+Cleo earns 5% from $ 100 in the first year, which gives her $ 105. The next year, she earns 5% of $ 105, which is $ 5.25 and so on. 
+Write a program that calculates how many years it will take for the balance amount of Cleo to exceed the sum of Daphne's balance sheet,
+with a display of the values ​​for both balances for each year.
+
+5. Suppose that you are selling a book on programming in C ++ for beginners. 
+Write a program that will allow you to enter monthly sales volumes throughout the year (in books, not in money). 
+The program should use a loop in which an invitation with the name of the month is displayed, applying an array of pointers to char 
+(or an array of string objects, if you prefer it), initialized with strings - month names, and saving the entered values 
+in the int array. Then the program should find the amount of the contents of the array and give the total sales for the year.
+
+6. Do Exercise 5, but using a two-dimensional array to store data on monthly sales for 3 years. 
+Issue the total amount of sales for each year and for all years together.
+
+7. Develop a structure called car, which will store the following information about the car: 
+the manufacturer's name in the form of a string in the symbol array or in the string object, 
+as well as the year of issuing the car as an integer. Write a program that asks the user how many cars to include in the catalog. 
+Then the program should apply new to create a dynamic array of car structures of a user-specified size. 
+Next, it should invite the user to enter the manufacturer's name and year of issue to fill the data of each structure in the array 
+(see Chapter 4), and finally, it should display the contents of each structure. 
+An example of running the program should look similar to the following:
+How many cars will be put in the catalog? 2
+Car number 1:
+Enter the manufacturer: Hudson Hornet
+Year of issue: 1952
+Car number 2:
+Enter the manufacturer: Kaiser
+Indicate the year of issue: 1951
+Here is your collection:
+1952 Hudson Hornet
+1951 Kaiser
+
+8. Write a program that uses a char array and a loop to read one word at a time until the done word is entered. 
+Then the program must report the number of words entered (excluding done). The startup example should be:
+Enter the words (to complete, enter the words done):
+anteater birthday category dumpster
+envy finagle geometry done for sure
+You have entered 7 words.
+
+You must include the header file with string and use the strcmp function to perform the test.
+
+9. Write a program that corresponds to the description of the program from Exercise 8, 
+but using the string object instead of the character array.
+Include the header file string and apply the operations of the relationship to perform the test.
+
+10. Write a program that uses nested loops, which prompts the user for the number of rows to display. 
+Then it should display the specified number of rows with asterisks, with one asterisk in the first line, two in the second, and so on. 
+In each line, the asterisks must be preceded by dots - 
+in such a quantity that the total number of characters in each line is equal to the number of lines.
+An example of running the program should look like this:
+Enter the number of rows: 5
+.... *
+... **
+.. ***
+. ****
+*****
