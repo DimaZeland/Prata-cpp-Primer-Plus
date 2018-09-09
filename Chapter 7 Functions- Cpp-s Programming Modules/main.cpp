@@ -1,5 +1,4 @@
 #include "MyClass.h"
-//#include "MyClass.cpp"
 
 int main() {
 
