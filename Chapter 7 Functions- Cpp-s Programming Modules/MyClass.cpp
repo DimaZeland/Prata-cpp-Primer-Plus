@@ -58,6 +58,13 @@ MyClass::FactorialMenu(void)const {  //derivation of the factorial of given numb
 	cout << "\nBye!";
 }
 
+void
+MyClass::Fill_array(double* itsArr, int size) { // array filling
+
+	cout << "Introduction the value of array elements: ";
+	for (int i = 0; i < size and  cin >> itsArr[i]; ++i);
+}
+
 double
 MyClass::FindMeanValue()const { // Find the mean value array's itsGolfResult elements
 
@@ -98,6 +105,13 @@ MyClass::Probability(unsigned numbers, unsigned picks, unsigned meganumberSize) 
 }
 
 void
+MyClass::Reserve_array(double* Arr, int size) { // changing the order of array elements
+	--size;
+	for (int i = 1; i < size - i; ++i)
+		std::swap(Arr[i], Arr[size - i]);
+}
+
+void
 MyClass::SetitsGolfResult(void) { // set the results of 10 golf games
 
 	cout << "Enter the result of Golf game 1 or <q> to quit: ";
@@ -107,4 +121,12 @@ MyClass::SetitsGolfResult(void) { // set the results of 10 golf games
 		else
 			cout << "Enter the result of Golf game " << i + 2 << " or <q> to quit: ";
 	cout << "\nThanks for information!\n";
+}
+
+void
+MyClass::Show_array(double* Arr, int size) { // deducing the values of array elements
+
+	for (int i = 0; i < size; ++i)
+		cout << Arr[i] << ' ';
+	cout << '\n';
 }
