@@ -25,6 +25,14 @@ int main() {
 	cout << "\nChance to win in such a lottery: 1 of " << pObject->Probability(numbers, picks, meganumberSize) << '\n';
 	// Task 5
 	pObject->FactorialMenu();
+	// Task 6
+	pObject->Fill_array(pObject->itsArr);
+	cout << "\nitsArray[]:\n";
+	pObject->Show_array(pObject->itsArr);
+	pObject->Reserve_array(pObject->itsArr);
+	cout << "\nitsArray[] after reserve:\n";
+	pObject->Show_array(pObject->itsArr);
+	// Task 10
 
 	delete pObject;
 	pObject = NULL;
