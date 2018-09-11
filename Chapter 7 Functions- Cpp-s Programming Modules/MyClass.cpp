@@ -130,3 +130,21 @@ MyClass::Show_array(double* Arr, int size) { // deducing the values of array ele
 		cout << Arr[i] << ' ';
 	cout << '\n';
 }
+
+double
+MyClass::calculate(double a, double b, double(MyClass::*pFunc)(double, double)) { // Task 10
+
+	return (this->*pFunc)(a, b);
+}
+
+double
+MyClass::Sum(double a, double b) { // return the sum of two numbers
+
+	return a + b;
+}
+
+double
+MyClass::Multiplication(double a, double b) { // return the sum of two numbers
+
+	return a * b;
+}
