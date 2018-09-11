@@ -39,6 +39,9 @@ public:
 	void Show_array(double*, int = size); // deducing the values of array elements
 	static const int size = 10;
 	double itsArr[size];
+	double calculate(double, double, double(MyClass::*pFunc)(double, double)); // Task 10
+	double Sum(double, double); // return the sum of two numbers
+	double Multiplication(double, double); // return the multiplication of two numbers
 private:
 	double itsGolfResult[10]; // include the results of 10 golf games
 };
