@@ -9,9 +9,25 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+template<typename T> // Exercise 5
+T max5(T arr [] ) {
+	T max = arr[0];
+	for (int i = 1; i < 5; ++i)
+		if (arr[i] > max)
+			max = arr[i];
+	return max;
+}
+
+template<typename T> // Exercise 6
+T maxn(T arr[], int size);
+
+template<> // Exercise 6 specialization of the function template for the type char
+char* maxn<char*>(char* arr[], int size);
+
+
 struct CandyBar {
 public:
-	CandyBar(): itsName(" "), itsWeight(0.0), itsKkal(0){}
+	CandyBar() : itsName(" "), itsWeight(0.0), itsKkal(0) {}
 	CandyBar(std::string name, double weight, int kkal) : itsName(name), itsWeight(weight), itsKkal(kkal) {}
 	~CandyBar() {}
 
@@ -24,7 +40,7 @@ public:
 class MyClass
 {
 public:
-	MyClass(): pItsStr("Hello, World!"), itsCalls(0) {}
+	MyClass() : pItsStr("Hello, World!"), itsCalls(0) {}
 	~MyClass() {}
 	// class methods
 	inline const char* GetpItsStr(void) { return this->pItsStr; }
