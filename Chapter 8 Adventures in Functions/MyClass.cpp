@@ -35,4 +35,4 @@ MyClass::UppercaseTranslation(std::string& str) { // changing string characters 
 
 	for (int i = 0; i < str.size(); ++i)
 		str[i] = std::toupper(str[i]);
-}
+} 
