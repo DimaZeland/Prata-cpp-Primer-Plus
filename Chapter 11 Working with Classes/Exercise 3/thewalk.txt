@@ -1,0 +1,3 @@
+Target Distance: 100. Step Size: 20, number of attempts: 10
+
+Max Step: 64, Min Step: 10, average Step: 25.4545
