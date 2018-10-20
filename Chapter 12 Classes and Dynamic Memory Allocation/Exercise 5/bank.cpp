@@ -21,7 +21,6 @@ int main()
 	cout << "Enter maximum size of queue: ";
 	int qs;
 	cin >> qs;
-	Queue line(qs);         // line queue holds up to qs people
 
 	cout << "Enter the number of simulation hours: ";
 	int hours;              //  hours of simulation
@@ -34,6 +33,7 @@ int main()
 	double perhour = 1;         //  average # of arrival per hour
 	double average_wait_time = 0; // average waiting time for perhour customers
 	for (; true; ++perhour) {
+		Queue line(qs);         // line queue holds up to qs people
 		//cin >> perhour;
 		double min_per_cust;    //  average time between arrivals
 		min_per_cust = MIN_PER_HR / perhour;
