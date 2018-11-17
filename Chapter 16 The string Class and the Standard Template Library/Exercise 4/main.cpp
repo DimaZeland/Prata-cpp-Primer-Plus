@@ -48,7 +48,7 @@ int reduce(long ar[], int n) { // sorting an array, removing duplicate elements,
 }
 
 int reduce1(long ar[], int n) { // STL functions
-	std::list<long> val(ar,ar+n+1);
+	std::list<long> val(ar,ar+n);
 	val.sort();
 	val.unique();
 
