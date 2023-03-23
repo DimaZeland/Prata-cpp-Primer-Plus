@@ -6,12 +6,12 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-class Plorg
-{
+class Plorg {
 private:
-	char Myname[19];
-	int MyCI;
+    char Myname[19];
+    int MyCI;
 public:
-	Plorg(const char*name = "Plorga", int consIndex = 50);
-	void Show()const; //cout object data 
+    Plorg(const char *name = "Plorga", int consIndex = 50);
+
+    void Show() const; //cout object data
 };

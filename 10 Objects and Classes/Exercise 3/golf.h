@@ -1,16 +1,21 @@
 #pragma once
+
 #include <iostream>
 
-class Golf
-{
+class Golf {
 private:
-	static const int Len = 40;
-	int itsHandicap;
+    static const int Len = 40;
+    int itsHandicap;
 public:
-	char fullname[Len];
-	inline int GetLen() { return Len; }
-	void setgolf(const char * name, int hc);
-	int setgolf();
-	void handicap(int hc);
-	void showgolf();
+    char fullname[Len];
+
+    inline int GetLen() { return Len; }
+
+    void setgolf(const char *name, int hc);
+
+    int setgolf();
+
+    void handicap(int hc);
+
+    void showgolf();
 };
