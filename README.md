@@ -3,6 +3,11 @@
 📕 Solutions to the programming exercises of the
 book ["C++ Primer Plus" (6th edition)](https://www.informit.com/store/c-primer-plus-9780321928429) by Stephen Prata
 
+### ⚙️ The project uses:
+
+- [C++11](https://en.cppreference.com/w/cpp/11)
+- [C++ Standard Template Library](https://en.cppreference.com/w/cpp/container)
+
 ## 📚 Contents
 
 #### [Dealing with Data](https://github.com/DimaZeland/Prata-cpp-Primer-Plus/tree/master/03%20Working%20with%20data)
